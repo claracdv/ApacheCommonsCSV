@@ -4,13 +4,13 @@
 public class Passageiro {
     private String cpf;
     private String nome;
-    private FormaPagamento formaPgto;
+    private FormaPagamento fPagamento;
     private String numeroCartao;
 
-    public Passageiro(String cpf, String nome, FormaPagamento formaPgto, String numeroCartao){
+    public Passageiro(String cpf, String nome, FormaPagamento fPagamento, String numeroCartao){
         this.cpf = cpf;
         this.nome = nome;
-        this.formaPgto = formaPgto;
+        this.fPagamento = fPagamento;
         this.numeroCartao = numeroCartao;    
     }
     
@@ -23,7 +23,7 @@ public class Passageiro {
     }
 
     public FormaPagamento getFormaPgto(){
-        return formaPgto;
+        return fPagamento;
     }
 
     public String getNroCartao(){
