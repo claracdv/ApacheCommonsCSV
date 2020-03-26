@@ -1,9 +1,17 @@
+import java.util.List;
+
 /**
  * PersistenciaPassageiros
  */
 public class PersistenciaPassageiros {
-    public static void main(String[] args) {
-        //carregaPassageiros(): List<Passageiro>
-        //persistePassageiros(List<Passageiro>): boolean
+
+    List<Passageiro> passageiros;
+    
+    public static List<Passageiro> carregaPassageiros(){
+
+    }
+
+    public static boolean persistePassageiros(List<Passageiro> passageiros){
+        return true;
     }
 }
